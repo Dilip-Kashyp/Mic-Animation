@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style2.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <title>Document</title>
+  <style>
+    .paused-animation {
+      animation-play-state: paused;
+  }
+  </style>
+  </head>
+  <body>
+   
+    <section  >
+      <button class="play-pause-btn" onclick="togglePlayPause()">▶️</button>
+      <div class="pulse animated-section"" >
+        <i class="fa-solid fa-microphone fa-7x mic"></i>
+        <i class="fa-solid fa-microphone-slash fa-7x mutemic"></i>
+        <span  style="--i: 0"></span>
+        <span  style="--i: 1"></span>
+        <span   style="--i: 2"></span>
+        <span   style="--i: 3"></span>
+      </div>
+    </section>
+    <div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+   </div>
+    <script src="./scrip.js"></script>
+  </body>
+</html>
